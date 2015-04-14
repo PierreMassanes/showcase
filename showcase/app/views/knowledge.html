@@ -1,0 +1,20 @@
+<h2>Compétences</h2>
+<div ng-repeat="cvknow in cvdata.competences">
+  <span><h3><a ng-click="showme=!showme">{{cvknow.categorie}}</a></h3></span>
+  <div class="container" ng-show="showme" ng-repeat="cvsouscat in cvknow.maitrises">
+    <h4 ng-if="showSousCat(cvsouscat)">{{cvsouscat.sousCategorie}}</h4>
+    <ul ng-repeat="cvskill in cvsouscat.liste">
+      <li class="nav">{{cvskill.competence}}</li>
+      <li class="nav">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="{{cvskill.niveau}}"
+               aria-valuemin="0" aria-valuemax="100" style="width: {{cvskill.niveau}}%"></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+
+

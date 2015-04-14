@@ -1,0 +1,251 @@
+{
+	"informations":{
+		"nom":"Massanès",
+		"prenom":"Pierre",
+		"mail":"pierre.massanes@gmail.com"
+	},
+	"formation":[
+		{
+			"label":"Ecole d'ingénieurs en informatique",
+			"annee":"2014 - aujourd'hui",
+			"lieu":"Polytech Nice Sophia"
+		},
+		{
+			"label":"Diplôme Universitaire de Technologie en Informatique",
+			"annee":"2012 - 2014",
+			"lieu":"Bourg-en-Bresse, Université Lyon 1"
+		},
+		{
+			"label":"Baccalauréat Scientifique option Sciences de l'Ingénieur mention Bien",
+			"annee":"2009 - 2012",
+			"lieu":"Lycée Germaine Tillion, Sain-Bel"
+		}
+	],
+	"competences":[
+		{
+			"categorie":"Informatique",
+			"maitrises":[
+				{
+          "sousCategorie":"Langages de programmation logicielle",
+					"liste":[
+            {
+              "competence":"C",
+              "niveau":90
+            },
+            {
+              "competence":"C++",
+              "niveau":75
+            },
+            {
+              "competence":"Qt",
+              "niveau":65
+            },
+            {
+              "competence":"Java",
+              "niveau":90
+            },
+            {
+              "competence":"C#",
+              "niveau":80
+            }
+					]
+				},
+        {
+          "sousCategorie":"Autres technologies de programmation logicielle",
+          "liste":[
+            {
+              "competence":".NET",
+              "niveau":35
+            },
+            {
+              "competence":"WPF",
+              "niveau":60
+            }
+          ]
+        },
+        {
+          "sousCategorie":"Langages de programmation web",
+          "liste":[
+            {
+              "competence":"HTML",
+              "niveau":90
+            },
+            {
+              "competence":"CSS",
+              "niveau":90
+            },
+            {
+              "competence":"PHP",
+              "niveau":90
+            },
+            {
+              "competence":"Javascript",
+              "niveau":80
+            }
+          ]
+        },
+        {
+          "sousCategorie":"Technologies de développement d'applications web",
+          "liste":[
+            {
+              "competence":"Framework Spring",
+              "niveau":55
+            },
+            {
+              "competence":"JEE",
+              "niveau":60
+            },
+            {
+              "competence":"EJB3",
+              "niveau":17
+            }
+          ]
+        },
+        {
+          "sousCategorie":"Base de données",
+          "liste":[
+            {
+              "competence":"Framework Hibernate",
+              "niveau":60
+            },
+            {
+              "competence":"JPA",
+              "niveau":60
+            },
+            {
+              "competence":"SQL",
+              "niveau":80
+            },
+            {
+              "competence": "MySQL",
+              "niveau": 70
+            },
+            {
+              "competence":"Oracle",
+              "niveau":70
+            }
+          ]
+        },
+        {
+          "sousCategorie":"Conception",
+          "liste":[
+            {
+              "competence":"UML",
+              "niveau":60
+            }
+          ]
+        },
+        {
+          "sousCategorie":"Développement mobile",
+          "liste":[
+            {
+              "competence":"Android",
+              "niveau":67
+            }
+          ]
+        },
+        {
+          "sousCategorie":"Systèmes d'exploitation",
+          "liste":[
+            {
+              "competence":"Windows",
+              "niveau":95
+            },
+            {
+              "competence":"Linux",
+              "niveau":95
+            }
+          ]
+        }
+			]
+		},
+		{
+			"categorie":"Langues",
+			"maitrises":[
+        {
+          "liste":[
+            {
+              "competence":"Anglais",
+              "niveau":80,
+              "TOEIC":835
+            },
+            {
+              "competence":"Italien",
+              "niveau":60
+            },
+            {
+              "competence":"Chinois",
+              "niveau":10
+            }
+          ]
+        }
+			]
+		}
+	],
+	"professionel":[
+		{
+			"label":"Conception et développement d'une application web de suivi de demandes clients pour G2S.",
+			"date":"2014",
+			"type":"Stage de 10 semaines",
+			"lieu":"Groupama Supports et Services",
+			"detail":""
+		},
+		{
+			"label":"Réalisation d'un site et d'une application mobile pour le centenaire de la guerre de 14 - 18 en équipe.",
+			"date":"2013 - 2014",
+			"type":"Projet tutoré - Projet d'études",
+			"lieu":"Bourg-en-Bresse, Université Lyon 1",
+			"detail":""
+		},
+		{
+			"label":"Stage d'observation en Biométrie et Biologie évolutive",
+			"date":"2008 - 2009",
+			"type":"Stage d'observation",
+			"lieu":"Université Lyon 1",
+			"detail":""
+		}
+	],
+	"centres interets":[
+		{
+			"type":"Sport",
+			"activites":[
+				{
+					"label":"Basket-ball",
+					"detail":"Pratiqu� en club pendant 6 ans."
+				},
+				{
+					"label":"Escrime de spectacle",
+					"detail":"Pratiqu� avec l'association Ternand M�di�val pendant 2 ans."
+				}
+			]
+		},
+		{
+			"type":"Lecture",
+			"activites":[
+				{
+					"label":"Science-fiction",
+					"detail":"",
+					"livres":[]
+				},
+				{
+					"label":"Fantastique",
+					"detail":"",
+					"livres":[]
+				},
+				{
+					"label":"Autres",
+					"detail":"Magasines de science, livres de science",
+					"livres":[]
+				}
+			]
+		},
+		{
+			"type":"Cin�ma",
+			"activites":[
+				{
+					"detail":"Au moins une fois par mois si possible."
+				}
+			]
+		}
+	]
+}
